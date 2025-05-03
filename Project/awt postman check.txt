@@ -1,0 +1,35 @@
+
+localhost:3000/examinee(Post)
+{
+  "name": "",
+  "age": 20,
+  "institute": "ABC University",
+  "region": "North"
+}
+-error
+
+{
+  "name": "Rifat",
+  "age": 20,
+  "institute": "ABC University",
+  "region": "North"
+}
+-success message
+
+----------------------------------------------------------------------------------------------
+
+localhost:3000/auth/register(Post)
+
+{
+  "email": "test@example.com",
+  "password": "mypassword"
+}
+
+----------------------------------------------------------------------------------------------
+
+localhost:3000/auth/login(Post)
+
+{
+  "email": "test@example.com",
+  "password": "mypassword"
+}
