@@ -1,9 +1,0 @@
-npm install @sendgrid/mail
-npm install nodemailer
-npm install class-validator class-transformer
-npm install bcryptjs
-npm install @nestjs/jwt jsonwebtoken
-npm install @nestjs/typeorm typeorm pg
-
-npm install nodemailer
-npm install --save-dev @types/nodemailer
