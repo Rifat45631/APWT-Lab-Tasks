@@ -11,8 +11,9 @@ npm install @nestjs/typeorm typeorm pg
 npm install nodemailer
 npm install --save-dev @types/nodemailer
 
-npm install -g ngrok
-ngrok http 3000
+npx ngrok http 3000ngrok http 3000
 npx ngrok http 3000
 npm install ngrok --save-dev
 
+npm install @nestjs/passport passport passport-jwt
+npm install @types/passport-jwt --save-dev
