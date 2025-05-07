@@ -1,3 +1,5 @@
+ngrok config add-authtoken 2wkR6qgTOU7pHq8nfnqyrDzPiNq_4uohNAwbZ5HzeZuHJXM5k
+
 
 in new vs code new (don't delete the npm run start terminal let him cook) terminal run --  ngrok http 3000 -- copy the forwading http link that overwrites  http://localhost:3000 and paste that in mailer.service.ts -- const link = `http://localhost:3000 /auth/verify-email?token=${token}`; whatever it is to - const link = ` https://741d-103-180-245-255.ngrok-free.app/auth/verify-email?token=${token}`;
 don't turn off the ngrok terminal alo let him cook
