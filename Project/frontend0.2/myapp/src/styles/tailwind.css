@@ -1,0 +1,100 @@
+/*tailwind.css*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #0d0f250f;
+    --global-bg-2: #eeeff2;
+    --global-bg-3: #f53737;
+    --global-bg-4: #f5373759;
+    --global-bg-5: #f8f8f8;
+    --global-bg-6: #ffebeb;
+    --global-bg-7: #ffffff;
+    --global-text-1: #0b132a;
+    --global-text-2: #4e5664;
+    --global-text-3: #4f5665;
+    --global-text-4: #000000;
+
+    /* Header Colors */
+    --header-bg-1: #59595928;
+    --header-text-1: #000000;
+
+    /* Button Colors */
+    --button-text-1: #f53737;
+    --button-text-2: #ffffff;
+
+    /* PagerIndicator Colors */
+    --pager-bg-1: #dde0e4;
+
+    /* Footer Colors */
+    --footer-text-1: #afb5c0;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .bg-global-6 {
+    background-color: var(--global-bg-6);
+  }
+  .bg-global-7 {
+    background-color: var(--global-bg-7);
+  }
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+  .text-global-3 {
+    color: var(--global-text-3);
+  }
+  .text-global-4 {
+    color: var(--global-text-4);
+  }
+
+  /* Header */
+  .bg-header-1 {
+    background-color: var(--header-bg-1);
+  }
+  .text-header-1 {
+    color: var(--header-text-1);
+  }
+
+  /* Button */
+  .text-button-1 {
+    color: var(--button-text-1);
+  }
+  .text-button-2 {
+    color: var(--button-text-2);
+  }
+
+  /* PagerIndicator */
+  .bg-pager-1 {
+    background-color: var(--pager-bg-1);
+  }
+
+  /* Footer */
+  .text-footer-1 {
+    color: var(--footer-text-1);
+  }
+}
