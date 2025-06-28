@@ -1,0 +1,26 @@
+another device setup- npm install
+
+
+
+npm install @sendgrid/mail
+npm install nodemailer
+npm install class-validator class-transformer
+npm install bcryptjs
+npm install @nestjs/jwt jsonwebtoken
+npm install @nestjs/typeorm typeorm pg
+npm install nodemailer
+npm install --save-dev @types/nodemailer
+
+npx ngrok http 3000ngrok http 3000
+npx ngrok http 3000
+npm install ngrok --save-dev
+
+npm install @nestjs/passport passport passport-jwt
+npm install @types/passport-jwt --save-dev
+
+npm install @googleapis/docs
+npm install googleapis
+npm install --save-dev @types/googleapis
+
+npm install pdfkit
+npm install --save-dev @types/pdfkit

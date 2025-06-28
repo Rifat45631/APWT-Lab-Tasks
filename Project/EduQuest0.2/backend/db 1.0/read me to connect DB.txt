@@ -1,0 +1,7 @@
+If not working make it manually....
+First create a database in server name following by-
+       				
+				examineeDB
+
+
+then just restore this given sql source file in the database.

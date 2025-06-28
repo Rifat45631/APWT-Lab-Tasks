@@ -1,0 +1,51 @@
+
+in new vs code new (don't delete the npm run start terminal let him cook) terminal run --  ngrok http 3000 -- copy the forwading http link that overwrites  http://localhost:3000 and paste that in mailer.service.ts -- const link = `http://localhost:3000 /auth/verify-email?token=${token}`; whatever it is to - const link = ` https://741d-103-180-245-255.ngrok-free.app/auth/verify-email?token=${token}`;
+don't turn off the ngrok terminal alo let him cook
+
+---------------------------------------------------------------------------------------------postman
+
+localhost:3000/examinee(Post)
+
+----------------------------------------------------------------------------------------------
+
+localhost:3000/auth/register(Post)
+
+{
+  "username": "Shahebur",
+  "age": 25,
+  "institution": "AIUB",
+  "region": "Bangladesh",
+  "email": "eraneras111@gmail.com",
+  "password": "password123"
+}
+
+
+///localhost:3000/auth/login(Post)
+
+{
+  "email": "eraneras111@gmail.com",
+  "password": "password123"
+}
+
+
+///localhost:3000/examinee(Put)
+{
+  "username": "Arafin",
+  "age": 25,
+  "institution": "AIUB",
+  "region": "Bangladesh"
+}
+-----------------------------------------------------------pg admin
+
+
+select * from "user" 
+
+
+DELETE FROM "user" WHERE email = 'arkihudai0@gmail.com';
+
+
+UPDATE "user"
+SET "isVerified" = false,
+    "verificationToken" = null
+WHERE email = 'ethan201789@gmail.com';
+
